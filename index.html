@@ -1,0 +1,214 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>CyberGuard AI 🛡️</title>
+  <link rel="stylesheet" href="style.css">
+</head>
+<body>
+
+  <nav>
+    <h2>CyberGuard AI 🛡️</h2>
+        
+    <ul>
+      <li><a href="#mainContent">Home</a></li>
+      <li><a href="#learning">Learn</a></li>
+      <li><a href="#features">Tools</a></li>
+      <li><a href="#quiz">Quiz</a></li> 
+      <li><a href="#contact">Contact</a></li>
+    </ul>
+  </nav>
+  <div id ="mainContent">
+  <section class="hero">
+
+<div class="hero-content">
+
+<h1>
+🛡️ Protect Your <span>Digital Identity</span>
+</h1>
+
+<p>
+CyberGuard AI is an AI-powered Cyber Security platform that helps you
+detect phishing attacks, analyze password strength and improve your
+online safety with smart security tools.
+</p>
+
+<div class="hero-buttons">
+
+<button onclick="getStarted()">🚀 Get Started</button>
+
+</div>
+
+</div>
+
+</section>
+  <div id="content" style="display:none;">
+
+<section id="features" class="features">
+
+    <h2>Our Security Features</h2>
+
+    <div class="cards">
+
+        <div class="card" onclick="openPasswordAnalyzer()">
+            <h3>🔐 Password Analyzer</h3>
+            <p>Check password strength and security level.</p>
+        </div>
+
+        <div class="card" onclick="showPhishingTool()">
+            <h3>🎣 Phishing Awareness</h3>
+            <p>Learn how to identify fake emails and websites.</p>
+        </div>
+
+        <div class="card" onclick="showRiskTool()">
+            <h3>📊 Risk Assessment</h3>
+            <p>Evaluate your cyber security habits.</p>
+        </div>
+
+    </div>
+
+</section>
+<section class="about-cyber">
+
+    <h2>Why Cyber Security Matters?</h2>
+
+    <p>
+        Cyber threats are increasing every day. Strong passwords,
+        phishing awareness, and secure online practices help protect
+        personal and organizational data from cyber attacks.
+    </p>
+    
+</section>
+
+    <p id="risk-result"></p>
+
+<section id="learning" class="learning">
+<h2>Learning Roadmap</h2>
+
+<div class="cards">
+
+<div class="card" onclick="showBeginner()">
+<h3>🟢 Beginner</h3>
+<p>Password Safety</p>
+<p>Internet Security</p>
+<p>Cyber Threats</p>
+</div>
+
+<div class="card" onclick="showIntermediate()">
+<h3>🟡 Intermediate</h3>
+<p>Phishing Attacks</p>
+<p>Malware</p>
+<p>Social Engineering</p>
+</div>
+
+<div class="card" onclick="showAdvanced()">
+<h3>🔴 Advanced</h3>
+<p>Network Security</p>
+<p>Ethical Hacking</p>
+<p>Cryptography</p>
+</div>
+
+</div>
+</section>
+<section class="resources">
+
+<h2>Cyber Security Tips</h2>
+
+<div class="cards">
+
+<div class="card" onclick="showPasswordTips()">
+<h3>🔐 Strong Passwords</h3>
+<p>Use a combination of letters, numbers and symbols.</p>
+</div>
+
+<div class="card" onclick="show2FA()">
+<h3>📱 Enable 2FA</h3>
+<p>Activate Two-Factor Authentication for extra security.</p>
+</div>
+
+<div class="card" onclick="showPhishingTips()">
+<h3>🎣 Avoid Phishing</h3>
+<p>Never click suspicious links from unknown emails.</p>
+</div>
+
+</div>
+
+</section>
+<section class="scam-detector">
+
+<h2>🚨 Scam Message Detector</h2>
+
+<textarea id="scamInput" placeholder="Paste suspicious SMS, Email or WhatsApp message here..."></textarea>
+
+<br><br>
+
+<button onclick="checkScam()">Analyze Message</button>
+
+<p id="result"></p>
+
+</section>
+    <section id="quiz"class="quiz">``````
+
+<h2>Cyber Security Quiz</h2>
+
+<h3 id="question"></h3>
+
+<div id="options"></div>
+
+<button onclick="nextQuestion()">Next</button>
+
+<p id="quiz-result"></p>
+</section>
+<section class="dashboard">
+
+    <h2>Security Dashboard</h2>
+
+    <div class="score-card">
+        <h3>Password Security</h3>
+        <p>80%</p>
+    </div>
+
+    <div class="score-card">
+        <h3>Cyber Awareness</h3>
+        <p>90%</p>
+    </div>
+
+    <div class="score-card">
+        <h3>Risk Level</h3>
+        <p>Low</p>
+    </div>
+
+</section>
+<section id="contact"class="contact">
+
+    <h2>Contact Us</h2>
+
+    <input type="text" placeholder="Your Name"><br><br>
+
+    <input type="email" placeholder="Your Email"><br><br>
+
+    <textarea placeholder="Your Message"></textarea><br><br>
+
+    <button onclick="sendMessage()">sendMessage</button>
+
+</section>
+</div>
+
+<script src="script.js"></script>
+
+<footer class="footer">
+
+    <h3>🛡️ CyberGuard AI</h3>
+
+    <p>Learn • Detect • Protect</p>
+
+    <p>Made by Shaikh Aafiya💖</p>
+
+    <p>© 2026 CyberGuard AI | All Rights Reserved</p>
+</footer>
+
+
+</body>
+</html>
+

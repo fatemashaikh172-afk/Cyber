@@ -1,0 +1,48 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>Risk Assessment</title>
+<link rel="stylesheet" href="style.css">
+</head>
+<body>
+
+<div class="quiz">
+
+<h2>📊 Risk Assessment</h2>
+
+<p>Do you use the same password on multiple websites?</p>
+<select id="risk1">
+    <option value="0">No</option>
+    <option value="1">Yes</option>
+</select>
+
+<p>Do you enable Two-Factor Authentication?</p>
+<select id="risk2">
+    <option value="0">Yes</option>
+    <option value="1">No</option>
+</select>
+
+<p>Do you click links from unknown emails?</p>
+<select id="risk3">
+    <option value="0">No</option>
+    <option value="1">Yes</option>
+</select>
+
+<br><br>
+
+<button onclick="checkRisk()">Check Risk</button>
+
+<button onclick="window.location.href='index.html'">
+⬅ Back
+</button>
+
+<p id="risk-result"></p>
+
+</div>
+
+<script src="script.js"></script>
+
+</body>
+</html>
